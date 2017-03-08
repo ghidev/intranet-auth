@@ -1,0 +1,23 @@
+{
+    "name": "ghidev/intranet-auth",
+    "description": "Paquete para integrar auntenticacion con la intranet de GHI con Laravel",
+    "keywords": ["laravel", "intranet", "auth", "ghi"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Francisco Esquivel",
+            "email": "froker91@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ghidev\\IntranetAuth\\": "src/IntranetAuth/",
+            "Ghidev\\Core\\": "src/Core/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "laravel/framework": "^5.2",
+        "ghi/core-domain": "^1.0"
+    }
+}
